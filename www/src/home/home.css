@@ -1,0 +1,136 @@
+.home {
+	background-color: #eee;
+}
+
+.findlink {
+	position: fixed;
+	right: 5%;
+	bottom: 10%;
+	z-index: 10;
+	background-color: #ccc;
+	padding: 8px;
+	border-radius: 120px;
+	opacity: 0.5;
+}
+
+.findlink > i {
+	font-size: 30px;
+}
+
+.pic-box img {
+	width: 100%;
+}
+
+.homefind {
+	background-color: #fff;
+	margin: 5px 5px 0 5px;
+	border-radius: 10px;
+}
+
+.homefind > a {
+	text-decoration: none;
+}
+
+.homefind p {
+	color: #aaa;
+	text-align: center;
+	padding: 3px 0 3px;
+	margin: 0px;
+}
+
+.hot {
+	margin: 7px 0 0;
+	overflow: auto;
+}
+
+.hottitle {
+	background-color: #fff;
+	margin: 0px;
+	padding: 5px 0 5px;
+	font-size: 18px;
+	text-align: center;
+}
+
+.hot-list {
+	width: 48%;
+	float: left;
+	margin: 2px 1% 0 1%;
+	border: 0px;
+}
+
+.hot-list > img {
+	width: 100%;
+	height: auto;
+}
+
+.hot-list > h3 {
+	white-space: normal;
+}
+
+.homelist img {
+	height: 70% !important;
+}
+
+.homelist h2 {
+	padding-top: 10px !important;
+}
+
+.homeinformation {
+	margin-top: 7px;
+	background-color: #fff;
+}
+
+.homeinformationtitle {
+	overflow: auto;
+}
+
+.homeinformationtitle  p {
+	font-size: 18px;
+	float: left;
+	width: auto;
+	height: auto;
+	border-bottom: 3px solid #8cf;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+.homeprogramme {
+	margin-top: 3px;
+	background-color: #fff;
+}
+
+.homeprogrammetitle {
+	overflow: auto;
+}
+
+.homeprogrammetitle  p {
+	font-size: 18px;
+	float: left;
+	width: auto;
+	height: auto;
+	border-bottom: 3px solid #8cf;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	padding: 5px;
+}
+
+.homegoods {
+	margin-top: 3px;
+	background-color: #fff;
+}
+
+.homegoodstitle {
+	overflow: auto;
+}
+
+.homegoodstitle  p {
+	font-size: 18px;
+	float: left;
+	width: auto;
+	height: auto;
+	border-bottom: 3px solid #8cf;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	padding: 5px;
+}

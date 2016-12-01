@@ -1,0 +1,92 @@
+<ion-view view-title="第三版" hide-tabs="true" class="detailall">
+	
+		<div class="detail-head">
+			<p>国脉物联网</p>
+		</div>
+  	<ion-content class="detail-content">
+  	<div class="detail-all">
+  		
+  		<!--标题正文部分-->
+  		<div  class="detail-headtitle">
+  			<div class="detail-headlines">
+  				<img src="/img/wulian7.png" alt="logo">
+  				<p class="detail-headlines-one">●</p><p class="detail-headlines-two">中国物联网与智能制造智库</p>
+  			</div>
+  		</div>
+  		<div class="detail-text">
+  			<div class="detail-top">
+  				<!-- 标题 -->
+  				<div class="detail-title">
+  					<div class="detail-subtitle">
+  						<span ng-bind="news.subtitle"></span>
+  					</div>
+  				</div>
+  				<!-- 文章来源   作者    发布时间   阅读量 -->
+  				<div class="detail-author">
+  					<p class="detail-author-one">赛迪网 2016年9月8日</p>
+  					<p class="detail-author-two">阅读：16</p>
+  						<img src="{{news.titlepic}}" alt="">
+  				</div>
+  			</div>
+  				
+  			<!-- 正文部分 -->
+  			<div class="detail-article">
+  				<main ng-bind-html="news.newsdata"></main>
+  				<div class="detail-article-author">
+  					<p>作者：link</p>
+  				</div>
+  				<!-- 免责说明 -->
+  				<div class="detail-explain">
+  					<span ng-bind-html="news.explain"></span>
+  				</div>
+  			</div>
+  		</div>
+  		
+  					
+  		<div class="detail-bottom">
+  			<!-- 相关阅读 -->
+  			<div class="detail-read">
+  				<div class="detail-read-title">
+  					<p class="detail-read-one">相关阅读</p>
+  				</div>
+  				    <a class="item item-thumbnail-right readitem" ng-repeat="data in list" type="item-text-wrap" href="#">
+  				      	<img ng-src="{{data.face}}">
+  				        <h2>{{data.title}}</h2>
+  				        <p>{{data.adress}}</P>
+  				        <P>{{data.time}}</p>
+  				    </a>
+  			</div>
+  			<!-- 热点搜索 -->
+  			<div class="detail-hotspot">
+  				<div class="detail-hotspot-title">
+  					<p class="detail-hotspot-one">热点搜索</p>
+  				</div>
+  				<a class="item item-thumbnail-right searchitem" ng-repeat="data in list" type="item-text-wrap" href="#">
+  				    <img ng-src="{{data.face}}">
+  				    <h2>{{data.title}}</h2>
+  				    <p>{{data.adress}}</P>
+  				    <P>{{data.time}}</p>
+  				</a>
+  			</div>
+			<!--二维码-->
+			<div class="detail-qrcode">
+				<div class="detail-qrcode-intro">
+					<p>如果你对国脉物联网感兴趣，长按下图，选择“识别图中二维码”关注我们</p>
+				</div>
+				<div class="detail-pic">
+					<img src="/img/wulian6.jpg" alt="二维码">
+				</div>
+				<div class="detail-cooperation">
+					<p class="detail-cooper-one">| 媒体合作 | 产品发布 | 活动推广|</p>
+					<p class="detail-cooper-two">免费服务</p>
+				</div>
+				<div class="detail-contact">
+					<p>微信公众号：govmadeim2m</p>
+					<p>物联网交流群：217378059</p>
+					<p>业务合作QQ：1572795827</p>
+				</div>
+			</div>
+		</div>
+	</div>
+  	</ion-content>
+</ion-view>

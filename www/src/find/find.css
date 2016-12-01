@@ -1,0 +1,28 @@
+.search-bar {
+  border-bottom: 1px solid #eee;
+}
+
+.search-bar i {
+  color: #999;
+  padding-top: 2px;
+}
+
+.findtop-input {
+  width: 90%;
+  margin-left: 3%;
+  color:#333;
+  border:none;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.findtop-search {
+  margin-right: 5px;
+}
+
+.findtop-button {
+  border: none;
+  background: transparent;
+  color: #f24182;
+  width: 50px;
+}

@@ -1,0 +1,245 @@
+
+
+/* Empty. Add your own CSS if you like */
+.detailall img {
+	max-width: 100%;
+	height: auto !important;
+}
+
+.detail-head {
+	background-color: #88CCFF;
+	font-size: 20px;
+	text-align: center;
+	height: 37px;
+	padding: 8px;
+}
+
+.detail-head > p {
+	font-weight:700;
+	color:#FFF;
+}
+
+.detail-headtitle {
+	background-color:#FFF;
+}
+
+.detail-headlines {
+	overflow: auto;
+	border-bottom: 1px solid #A5A5A5;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 5px;
+}
+
+.detail-headlines > img {
+	width:22px;
+	float:left;
+	padding-top:10px;
+}
+
+.detail-headlines-one {
+	float: left;
+	padding-top: 8px;
+	padding-right: 7px;
+	padding-left: 7px;
+	color: #A5A5A5;
+	margin-bottom: 0px;
+}
+
+.detail-headlines-two {
+	float: left;
+	font-size: 10px;
+	padding-top: 8px;
+	color: #909090;
+	margin-bottom: 0px;
+}
+
+.detail-content {
+	top:38px;
+	background-color: #F0F0F0;
+}
+
+.detail-all {
+	background-color: #F0F0F0;
+}
+
+.detail-top {
+	background-color: #FFF;
+	padding: 0px;
+}
+
+.detail-title {
+	font-size: 20px;
+	padding: 10px;
+}
+
+.detail-maintitle {
+	font-size: 26px;
+	text-align:center;
+}
+
+.detail-subtitle {
+	text-align: center;
+	font-weight: 700;
+}
+
+.detail-author {
+	overflow: auto;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+
+.detail-author-one {
+	float: left;
+	font-size: 12px;
+	color: #909090;
+}
+
+.detail-author-two {
+	float: right;
+	font-size: 12px;
+	color: #909090;
+}
+
+.detail-left {
+	width: 40%;
+	float: left;
+	padding-top: 20px;
+}
+
+.detail-description {
+	font-size: 14px;
+}
+
+.detail-right > img {
+	float:right;
+	width: 50%;
+	height: 50%;
+}
+
+.detail-article {
+	background: #FFF;
+	padding: 10px;
+	padding-top: 5px;
+	font-size: 16px;
+	line-height: 200%;
+	overflow: auto;
+}
+
+.detail-article-author {
+	overflow: auto;
+}
+
+.detail-article-author > p {
+	float:right;
+	color: #909090;
+}
+
+.detail-explain {
+	font-size: 10px;
+	color: #A5A5A5;
+	line-height: 150%
+}
+
+.detail-bottom {
+	margin-top: 10px;
+	background-color: #FFF;
+}
+
+.detail-read-title {
+	
+}
+
+.detail-read-one {
+	padding-top: 10px;
+	padding-left: 0px;
+	font-weight: 700;
+	background-color:#FFF;
+	margin-left:5px;
+	color: #000;
+	margin-bottom: 0px;
+	border-bottom: 4px solid #88CCFF;
+	width: 60px;
+}
+
+.readitem {
+	min-height: 10px;
+	padding-bottom: 0px;
+	border-color: #EFF1F1;
+}
+
+.readitem > p {
+	font-size:10px;
+	color:#A5A5A5;
+	float:left;
+	padding-top:12px;
+	padding-right:10px;
+}
+
+.detail-hotspot-title {
+	/* background-color: #FF5A5A; */
+}
+
+.searchitem {
+	min-height: 10px;
+	padding-bottom: 0px;
+	border-color: #EFF1F1;
+}
+
+.searchitem > p {
+	font-size:10px;
+	color:#A5A5A5;
+	float:left;
+	padding-top:12px;
+	padding-right:10px;
+}
+
+.detail-hotspot-one {
+	padding-top: 10px;
+	padding-left: 0px;
+	font-weight: 700;
+	background-color:#FFF;
+	margin-left:5px;
+	color: #000;
+	margin-bottom: 0px;
+	border-bottom: 4px solid #88CCFF;
+	width: 60px;
+}
+
+.detail-qrcode {
+	overflow:auto;
+	padding: 10px;
+}
+
+.detail-qrcode-intro {
+	color: #A5A5A5;
+	font-weight: 700;
+}
+
+.detail-cooperation {
+	text-align: center;
+	font-weight: 700;
+}
+
+.detail-cooper-one {
+	color: #3366FF;
+	padding-bottom: 3px;
+	margin-bottom: 5px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-bottom: 2px solid #000;
+}
+
+.detail-cooper-two {
+	color: #3366FF;
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 3px;
+	border-top: 1px solid #000;
+}
+
+.detail-contact {
+	color: #3366FF;
+	text-align: center;
+	font-weight: 700;
+}

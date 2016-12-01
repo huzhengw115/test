@@ -1,0 +1,10 @@
+	<ion-content ng-controller="NewsoneCtrl">
+		<ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()">
+			</ion-refresher>
+		<div class="list newsList">
+			<p>资讯</p>
+		</div>
+				
+		<ion-infinite-scroll on-infinite="loadMore()" distance="10%" ng-if="More">
+			</ion-infinite-scroll>
+	</ion-content>

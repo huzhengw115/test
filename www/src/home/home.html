@@ -1,0 +1,90 @@
+<ion-view view-title="首页">
+	<a href="#/finds/find" class="findlink"><i class="ion-ios-search" ></i></a>
+  	<ion-content class="home">
+    
+		<ion-refresher pulling-text="下拉刷新..." on-refresh="doRefresh()">
+	    </ion-refresher>
+
+		<div class="homehead">
+			<div class="homepic">
+	  			<ion-slide-box 	on-slide-changed="slideHasChanged($index)" 
+	  							auto-play="true" 
+	  							does-continue="true" 
+	  							slide-interval="3000" 
+	  							
+	  							
+	  							active-slide="true" 
+	  							delegate-handle="delegateHandler">
+			  		<ion-slide ng-repeat="item in ads">
+					    <div class="pic-box">
+					    	<a ng-href = "{{ item.url }}">
+					      		<img ng-src="{{ item.pic }}">
+					    	</a>
+					    </div>
+			  		</ion-slide>
+				</ion-slide-box>
+	  		  </div>
+
+	  		  <div class="homefind">
+	  		  	<a href="#/finds/find">
+	  		  		<p>输入关键字进行搜索</p>
+	  		  	</a>
+	  		  </div>
+		</div>
+
+		<!--热门-->
+		<div class="hot">
+			<p class="hottitle">一段物联网的介绍什么的</p>
+			<a class="item hot-list" ng-repeat="hot in hots">
+				<img src="{{hot.pic}}">
+				<h3>{{hot.title}}</h3>
+			</a>
+		</div>
+
+		<div class="homelist">
+			<!--资讯列-->
+			<div class="homeinformation">
+				<div class="homeinformationtitle">
+		            <p>资讯热点</p>
+	          	</div>
+			</div>
+			<div class="homeinformation-list">
+				<a class="item item-thumbnail-left" ng-repeat="data in information" type="item-text-wrap" href="#/tab/home/{{data.id}}">
+	  				<img ng-src="{{data.pic}}">
+	  				<h2>{{data.title}}</h2>
+	  				<p>{{data.adress}}</P>
+	  				<P>{{data.time}}</p>
+	  			</a>
+			</div>
+			<!--方案-->
+			<div class="homeprogramme">
+				<div class="homeprogrammetitle">
+					<p>精选方案</p>
+				</div>
+				<div class="homeprogramme-list">
+					<a class="item item-thumbnail-left" ng-repeat="data in information" type="item-text-wrap" href="#/tab/home/{{data.id}}">
+		  				<img ng-src="{{data.pic}}">
+		  				<h2>{{data.title}}</h2>
+		  				<p>{{data.adress}}</P>
+		  				<P>{{data.time}}</p>
+		  			</a>
+				</div>
+			</div>
+			<!--商机-->
+			<div class="homegoods">
+				<div class="homegoodstitle">
+					<p>绝密商机</p>
+				</div>
+				<div class="homegoods-list">
+					<a class="item item-thumbnail-left" ng-repeat="data in information" type="item-text-wrap" href="#/tab/home/{{data.id}}">
+		  				<img ng-src="{{data.pic}}">
+		  				<h2>{{data.title}}</h2>
+		  				<p>{{data.adress}}</P>
+		  				<P>{{data.time}}</p>
+		  			</a>
+				</div>
+			</div>
+		</div>
+
+  	</ion-content>
+</ion-view>

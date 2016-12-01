@@ -1,0 +1,36 @@
+<ion-view view-title="资讯">
+
+	<div class="slide-tab">
+		<input type="radio" name="radio-set" ng-checked="slideIndex == 0 ? 'checked' : ''" ng-click="activeSlide(0)" id="news_slide_0">
+		<p>资 讯</p>
+		<input type="radio" name="radio-set" ng-checked="slideIndex == 1 ? 'checked' : ''" ng-click="activeSlide(1)" id="news_slide_1">
+		<p>方 案</p>
+		<input type="radio" name="radio-set" ng-checked="slideIndex == 2 ? 'checked' : ''" ng-click="activeSlide(2)" id="news_slide_2">
+		<p>商 机</p>
+	</div>
+
+	<ion-content class="news_content" delegate-handle＝"news_hot_content" scroll="false" overflow-scroll="ture">
+
+	<ion-slide-box delegate-handle="newsSlider" on-slide-changed="slideChanged(index)" active-slide="slideIndex"  show-pager="false" style="top: 0;bottom: 0;position: absolute !important; width:100%">
+
+		<ion-slide>
+			<div ng-include="newsOne">
+					
+			</div>
+		</ion-slide>
+
+		<ion-slide>
+			<div ng-include="newsTwo">
+					
+			</div>
+		</ion-slide>
+		
+		<ion-slide>
+			<div ng-include="newsThree">
+					
+			</div>
+		</ion-slide>
+
+	</ion-slide-box>
+	</ion-content>
+</ion-view>
